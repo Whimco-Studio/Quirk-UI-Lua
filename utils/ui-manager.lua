@@ -1,4 +1,4 @@
-local GuiController = require(script["gui-controller"])
+local GuiController = require(script.Parent["gui-controller"])
 local StarterGui = game:GetService("StarterGui")
 
 local UiManager = {}

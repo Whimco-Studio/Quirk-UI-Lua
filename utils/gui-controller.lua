@@ -1,6 +1,7 @@
+local Players = game:GetService("Players")
+local Packages = script.Parent.Parent.Parent
 local Make = require(script.Parent["make"])
 local GuiBase = require(script.Parent["gui-base"])
-local Players = game:GetService("Players")
 local charm = require(Packages.charm)
 local atom = charm.atom
 
