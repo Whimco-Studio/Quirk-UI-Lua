@@ -1,5 +1,5 @@
 local Packages = script.Parent.Parent.Parent
-local Dumpster = require(Packages.dumpster)
+local Dumpster = require(script.Parent.dumpster)
 local ripple = require(Packages.ripple)
 local createMotion = ripple.createMotion
 

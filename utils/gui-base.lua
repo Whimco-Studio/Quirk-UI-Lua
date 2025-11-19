@@ -1,6 +1,5 @@
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
-local Packages = script.Parent.Parent.Parent
-local Dumpster = require(Packages.dumpster)
+local Dumpster = require(script.Parent.dumpster)
 
 local GuiBase = {}
 GuiBase.__index = GuiBase
