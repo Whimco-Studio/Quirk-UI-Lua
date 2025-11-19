@@ -46,7 +46,7 @@ end
 function GuiBase:resolve(key, className)
 	local instance = self:get(key)
 	if className ~= nil then
-		assert(instance:IsA(className), "Instance " .. tostring(key) .. " is not a " .. tostring(className))
+		assert(instance:IsA(className), "Instance " .. tostring(key).. `({instance.ClassName})\n` .. " is not a " .. tostring(className))
 	end
 	return instance
 end
