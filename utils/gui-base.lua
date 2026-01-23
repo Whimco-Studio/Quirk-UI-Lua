@@ -1,5 +1,6 @@
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
-local Dumpster = require(script.Parent.dumpster)
+local Packages = script.Parent.Parent.Parent
+local Dumpster = require(Packages.dumpster)
 
 local GuiBase = {}
 GuiBase.__index = GuiBase
@@ -61,7 +62,7 @@ function GuiBase:Mount(parent)
 end
 
 function GuiBase:Destroy()
-	self._dumpster:destroy()
+	self._dumpster:Destroy()
 	self.Pane:Destroy()
 	for key in pairs(self) do
 		self[key] = nil

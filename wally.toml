@@ -1,9 +1,10 @@
 [package]
 name = "trendonrobinson/hydrator"
-version = "0.1.4"
+version = "0.1.7"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
 
 [dependencies]
 charm = "littensy/charm@0.10.0"
 ripple = "littensy/ripple@0.9.3"
+dumpster = "acecateer/dumpster@0.3.8"
